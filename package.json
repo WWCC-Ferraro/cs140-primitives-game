@@ -1,0 +1,13 @@
+{
+  "name": "cs140-primitives-game",
+  "private": true,
+  "type": "module",
+  "description": "Ten small functions on booleans, numbers, strings and nothing, and the dungeon game that uses them.",
+  "scripts": {
+    "test": "node --test",
+    "start": "node src/game.js"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
