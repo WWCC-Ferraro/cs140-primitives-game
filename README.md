@@ -25,15 +25,14 @@ little longer, and that is fine.
 
 ## Getting started
 
-1. Make your own copy. On this repository's GitHub page, choose **Use this
-   template**, then **Create a new repository**.
-2. Open your copy in one of two ways. Both work the same.
-   - **In a Codespace.** Choose **Code**, then **Codespaces**, then **Create
-     codespace on main**. Node is already installed.
-   - **On your own machine.** Clone it and open the folder. Check that
-     `node --version` prints 22 or later. Start Here's *Set up where your code
-     runs* covers this.
-3. Run the game:
+1. Open **your repository**. It is made for you: private, and named for this
+   homework, the term and your username — `<term>-cs140-primitives-game-<you>`. On
+   [this homework's page](https://wwcc.dev/#/lesson/primitives-game), type your GitHub
+   username and click **Open my Codespace**. On your own computer, clone it
+   with GitHub Desktop (**Code**, then **Open with GitHub Desktop**) and check
+   that `node --version` prints 22 or later. Start Here's *How a homework works*
+   walks through both.
+2. Run the game:
 
    ```sh
    npm start
@@ -42,7 +41,7 @@ little longer, and that is fine.
    Most of the report says `undefined` or `NaN`. `undefined` is what a function
    sends back when it has no `return` yet, and arithmetic with `undefined` gives
    `NaN`. That is the starting point.
-4. Run the tests:
+3. Run the tests:
 
    ```sh
    npm test
