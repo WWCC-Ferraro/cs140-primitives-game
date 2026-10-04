@@ -11,9 +11,6 @@ trap did to the hero's health, what she can do next, and so on. You write the
 toolkit; the game is already written. Each function you finish fixes a line of
 the report.
 
-Plan on about 45 minutes. If this is your first time programming, it may take a
-little longer, and that is fine.
-
 ## What each part leans on
 
 | Part | File | Lessons |
