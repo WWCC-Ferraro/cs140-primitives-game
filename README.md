@@ -20,6 +20,10 @@ the report.
 | 3 `firstAndLastCharacter`, `snakecase` | `src/strings.js` | Working with strings |
 | 4 `isNull`, `isUndefined`, `isNil` | `src/nothing.js` | When there is nothing there; Equality: == versus === |
 
+Every part also leans on *Writing a function's answer*: where `input`, `a` and
+`b` get their values, how to turn a function's description into the line you
+write, and why answering `not(input)` inside `not` never finishes.
+
 ## Getting started
 
 1. Open **your repository**. It is made for you: private, and named for this
