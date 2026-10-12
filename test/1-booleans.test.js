@@ -7,7 +7,7 @@ import { not, and, or } from '../src/booleans.js';
 const show = (v) => inspect(v);
 
 function check(call, got, expected, hint) {
-  assert.equal(got, expected, `${call} should be ${show(expected)}, but it gave ${show(got)}. ${hint}`);
+  assert.equal(got, expected, `${call} should be ${show(expected)}, but it returned ${show(got)}. ${hint}`);
 }
 
 test('not flips true and false', () => {

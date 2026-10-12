@@ -7,7 +7,7 @@
 //   npm start
 //
 // Before you finish a function, its part of the report shows `undefined` or
-// `NaN` — `undefined` is what a function sends back when it has no `return`
+// `NaN` — `undefined` is what a function returns when it has no `return`
 // yet, and arithmetic with `undefined` gives `NaN`. Finish the function, run
 // the game again, and that line comes right.
 //

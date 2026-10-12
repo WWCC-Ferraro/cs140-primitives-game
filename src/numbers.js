@@ -6,8 +6,9 @@
 // Each answer is one line, with `return` in front of it. No `if` needed.
 
 /**
- * Send back what is left over when `numerator` is divided by `denominator`
- * as many whole times as it fits.
+ * Return what is left over when `numerator` is divided by `denominator`:
+ * take `denominator` out of `numerator` as many whole times as `denominator`
+ * fits, and return what is left.
  *
  *   remainder(7, 4)  -> 3     (4 fits once, using 4; 3 is left)
  *   remainder(5, 3)  -> 2
@@ -19,7 +20,7 @@ export function remainder(numerator, denominator) {
 }
 
 /**
- * Send back `number` with its sign flipped: positive becomes negative, and
+ * Return `number` with its sign flipped: positive becomes negative, and
  * negative becomes positive.
  *
  *   flipSign(5)   -> -5

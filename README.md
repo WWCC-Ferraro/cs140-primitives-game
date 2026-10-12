@@ -22,7 +22,8 @@ the report.
 
 Every part also leans on *Writing a function's answer*: where `input`, `a` and
 `b` get their values, how to turn a function's description into the line you
-write, and why answering `not(input)` inside `not` never finishes.
+write, and why `not` cannot answer by calling `not(input)`: that call would
+call `not` again, and again, and never finish.
 
 ## Getting started
 
@@ -40,7 +41,7 @@ write, and why answering `not(input)` inside `not` never finishes.
    ```
 
    Most of the report says `undefined` or `NaN`. `undefined` is what a function
-   sends back when it has no `return` yet, and arithmetic with `undefined` gives
+   returns when it has no `return` yet, and arithmetic with `undefined` gives
    `NaN`. That is the starting point.
 3. Run the tests:
 
@@ -61,8 +62,8 @@ the result.
 
 ## How to write each answer
 
-Every function is already written except for the middle. Each one looks like
-this:
+Every function is already written except its body, the part between the
+braces. Each one looks like this:
 
 ```js
 export function double(n) {
@@ -72,7 +73,8 @@ export function double(n) {
 
 Write your answer between the braces, and put `return` in front of it.
 `return` sends the value out of the function, so the tests and the game can use
-it. The Functions module explains the rest.
+it. The Functions module, later in the course, explains functions and
+`return` in full.
 
 ```js
 export function double(n) {
@@ -104,7 +106,7 @@ a failing test or an idea.
 
 ## The parts
 
-The comment above each function says what it receives and what it sends back,
+The comment above each function says what it receives and what it returns,
 with examples. When a test fails, its message says what came back and what to
 look at.
 
@@ -136,9 +138,10 @@ an underscore.
 ### Part 4 · Nothing — `src/nothing.js`
 
 `isNull` asks "is this `null`?", `isUndefined` asks "is this `undefined`?", and
-`isNil` asks "is this either one?". The hero's shield broke, so it is `null`;
-she never learned a spell, so it is `undefined`. `0`, `""` and `false` are values
-that are *there*, and all three functions say `false` for them.
+`isNil` asks "is this either one?". In the game, the hero's shield broke, so
+her shield is `null`; she never learned a spell, so her spell is `undefined`.
+`0`, `""` and `false` are values that are *there*, and all three functions return
+`false` for them.
 
 ## Done means
 

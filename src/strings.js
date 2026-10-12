@@ -6,7 +6,7 @@
 // Each answer is one line, with `return` in front of it. No `if` needed.
 
 /**
- * Send back one string: the first character of `input`, then its last
+ * Return one string: the first character of `input`, then its last
  * character. `input` is never empty.
  *
  *   firstAndLastCharacter("JavaScript")  -> "Jt"
@@ -18,7 +18,7 @@ export function firstAndLastCharacter(input) {
 }
 
 /**
- * Send back `input` in lowercase, with every space replaced by an underscore.
+ * Return `input` in lowercase, with every space replaced by an underscore.
  *
  * One method you have not met yet: `text.replaceAll(" ", "_")` gives a copy of
  * `text` with every " " swapped for "_". Like `toLowerCase`, it does not change

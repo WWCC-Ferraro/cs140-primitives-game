@@ -7,7 +7,7 @@ import { remainder, flipSign } from '../src/numbers.js';
 const show = (v) => inspect(v);
 
 function check(call, got, expected, hint) {
-  assert.equal(got, expected, `${call} should be ${show(expected)}, but it gave ${show(got)}. ${hint}`);
+  assert.equal(got, expected, `${call} should be ${show(expected)}, but it returned ${show(got)}. ${hint}`);
 }
 
 test('remainder gives what is left over, not how many times it fits', () => {

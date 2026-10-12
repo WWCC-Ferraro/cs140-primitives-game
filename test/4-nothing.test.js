@@ -8,7 +8,7 @@ const show = (v) => inspect(v);
 
 function check(name, fn, value, expected, hint) {
   const got = fn(value);
-  assert.equal(got, expected, `${name}(${show(value)}) should be ${show(expected)}, but it gave ${show(got)}. ${hint}`);
+  assert.equal(got, expected, `${name}(${show(value)}) should be ${show(expected)}, but it returned ${show(got)}. ${hint}`);
 }
 
 test('isNull is true for null', () => {

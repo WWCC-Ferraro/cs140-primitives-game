@@ -11,7 +11,7 @@
 // `export` lets the tests and the game use each function. Leave it in place.
 
 /**
- * Send back the opposite of `input`.
+ * Return the opposite of `input`.
  *
  *   not(true)   -> false
  *   not(false)  -> true
@@ -21,7 +21,7 @@ export function not(input) {
 }
 
 /**
- * Send back true only when `a` and `b` are both true.
+ * Return true only when `a` and `b` are both true.
  *
  *   and(true, true)    -> true
  *   and(true, false)   -> false
@@ -32,7 +32,7 @@ export function and(a, b) {
 }
 
 /**
- * Send back false only when `a` and `b` are both false.
+ * Return false only when `a` and `b` are both false.
  *
  *   or(false, false)  -> false
  *   or(true, false)   -> true
