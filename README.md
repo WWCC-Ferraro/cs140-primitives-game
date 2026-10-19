@@ -92,18 +92,6 @@ Stuck? `console.log(something)` inside a function prints it when the tests or
 the game run. The tests do not look at what you print, so print as much as you
 like.
 
-## Using an AI assistant
-
-`AGENTS.md` in this repository tells AI coding assistants how this course wants
-them to help: as a tutor who explains errors, asks questions and gives hints,
-not by writing your answers. Most assistants read it automatically. It is in
-the open, so read it too. It says what good AI help looks like.
-
-In VS Code, in a Codespace or on your own computer, AI code suggestions are
-switched off for this homework (`.vscode/settings.json`), so the code you hand
-in is your own. Chat is on, and it follows `AGENTS.md`: ask it about an error,
-a failing test or an idea.
-
 ## The parts
 
 The comment above each function says what it receives and what it returns,
@@ -147,3 +135,15 @@ her shield is `null`; she never learned a spell, so her spell is `undefined`.
 
 - `npm test` passes every test.
 - `npm start` prints a report with no `undefined` and no `NaN` in it.
+
+## Using an AI assistant
+
+`AGENTS.md` in this repository tells AI coding assistants how this course wants
+them to help: as a tutor who explains errors, asks questions and gives hints,
+not by writing your answers. Most assistants read it automatically. It is in
+the open, so read it too. It says what good AI help looks like.
+
+In VS Code, in a Codespace or on your own computer, AI code suggestions are
+switched off for this homework (`.vscode/settings.json`), so the code you hand
+in is your own. Chat is on, and it follows `AGENTS.md`: ask it about an error,
+a failing test or an idea.
